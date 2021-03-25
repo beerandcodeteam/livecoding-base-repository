@@ -53,13 +53,13 @@ O canal tem como objetivo ensinar de maneira simples e direta o framework Larave
 
 ## Instalação
 
-Começe criando uma clone, ou seja, uma cópia local sua deste repositório.
+Clone o projeto:
 
 ```
 git clone «URL DO REPOSITÓRIO»
 ```
 
-Uma vez clonado, entre na pasta do projeto:
+Uma vez clonado, abra na pasta do projeto:
 
 ```
 cd «DIR DO PROJETO»
