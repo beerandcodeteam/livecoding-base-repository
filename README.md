@@ -1,10 +1,12 @@
 # bc-live-repository
 # Beer and Code Petiscando #XX|LIVE CODING|Sextou
-![Beer-and-Code](./beer_and_code.png)
+<div align="center">
+	<img  width="200" height="200" src="./beer_and_code.png" alt="Awesome Beer & Code">
+</div>
 
-O tema da mesa do bar é...
+## O tema da mesa do bar é...  Laravel com Taylor Otwell.
 
-*Testes (TDD) com Mateus Guimarães.*
+<br/>
 
 Quer saber mais sobre como essas features fazem a diferença em nossos projetos? Tem alguma dúvida ou dificuldade?
 
@@ -20,13 +22,24 @@ Petiscando #001​ - Porque confiar no PHP? https://www.youtube.com/watch?v=7Va0
 🍻 Se inscreva no canal 🍻
 🍻 Ativa o sininho pra receber notificação sempre que tiver vídeo novo 🍻
 
+<p>
 Redes Sociais:
+<br/><br/>
 ✔ Discord: https://discord.com/invite/mhyKFgv
-✔ Twitter: https://twitter.com/beerandcodeyt/​
-✔ Instagram: https://www.instagram.com/beerandcode...​
-✔ Facebook: https://www.facebook.com/beerandcodeo...​
-✔ Site: https://beerandcode.com.br/​
-
+<br/>
+✔ Twitter: https://twitter.com/beerandcodeyt/
+<br/>
+✔ Instagram: https://www.instagram.com/beerandcode_oficial
+<br/>
+✔ Facebook: https://www.facebook.com/beerandcodeoficial/
+<br/>
+✔ Spotify: https://open.spotify.com/show/5xGXrAp97Ff9TZYgTYvdhL?si=TimdoZoOQvqzX7FeWHlT-A&nd=1
+​<br/>
+✔ Site: https://beerandcode.com.br/ 
+<br/>
+✔ Linktree: https://linktr.ee/beerandcode​
+<br/>
+</p>
 Contato:
 ✉ contato@beerandcode.com.br
 
@@ -39,11 +52,42 @@ Em nosso canal do YouTube você encontra vídeos toda semana, apresentados por D
 O canal tem como objetivo ensinar de maneira simples e direta o framework Laravel, a linguagem PHP e todo o ecossistema que os cerca. Queremos compartilhar anos de experiência de mercado para que as pessoas consigam criar projetos incríveis usando essas tecnologias que a cada ano crescem ainda mais no mundo todo.
 
 ## Instalação
-git clone ...
 
-cd dir-do-projeto
+Começe criando uma clone, ou seja, uma cópia local sua deste repositório.
 
-copie o arquivo *.env.example* para *.env* e insira as credenciais do seu banco de dados
+```
+git clone «URL DO REPOSITÓRIO»
+```
+
+Uma vez clonado, entre na pasta do projeto:
+
+```
+cd «DIR DO PROJETO»
+```
+
+Dentro da pasta do projeto, copie o arquivo *.env.example* para *.env*.
+Agora, modifique o .env insirindo insira as credenciais do seu banco de dados.
+
+```
+DB_CONNECTION=mysql
+DB_HOST=«ENDEREÇO DO SEU BANCO DE DADOS»
+DB_PORT=3306
+DB_DATABASE=«NOME DO SEU BANCO DE DADOS»
+DB_USERNAME=«USUÁRIO DO SEU BANCO DE DADOS»
+DB_PASSWORD=«SENHA PARA O USUÁRIO»
+```
+
+Por exemplo:
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=beerandcode
+DB_USERNAME=dba
+DB_PASSWORD=senha1234
+```
+
+Agora, instale o projeto:
 
 ```
 composer install
